@@ -11,7 +11,7 @@ See how to do it <a href="https://www.youtube.com/watch?v=_dd4-HEPejU">here </a>
 Clone this repos to your local machine 
 </li>
 <li>
-Install al the dependecies and enjoy the app. 
+Install all the dependecies and enjoy the app. 
 </li>
 <li>
 Please report any issues you run into 
