@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\post;
+use App\Post;
 use Auth;
 
 class HomeController extends Controller
@@ -33,7 +33,7 @@ class HomeController extends Controller
 
     public function create(Request $request)
     {
-        $post = new post();
+        $post = new Post();
         $post->body = $request['post_body'];
         $post->user_id = Auth::id();
         $post->save();
